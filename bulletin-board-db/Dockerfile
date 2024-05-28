@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/mssql/server:2017-latest
 
 ENV ACCEPT_EULA=Y \
-    MSSQL_SA_PASSWORD=D0cker2*2*
+    MSSQL_SA_PASSWORD=DockerCon!!!
 
 WORKDIR /init
 COPY init-db.* ./
